@@ -1,7 +1,8 @@
 
+
 import React from 'react';
-import ProductList from '../components/ProductList';
-import { Product } from '../types';
+import ProductList from '../components/ProductList.tsx';
+import { Product } from '../types.ts';
 
 interface ProductsPageProps {
   onBuyNow: (product: Product) => void;

@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import WholesalePage from './pages/WholesalePage';
-import OrderFormModal from './components/OrderFormModal';
-import OrderConfirmationToast from './components/OrderConfirmationToast';
-import { Product } from './types';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import HomePage from './pages/HomePage.tsx';
+import ProductsPage from './pages/ProductsPage.tsx';
+import WholesalePage from './pages/WholesalePage.tsx';
+import OrderFormModal from './components/OrderFormModal.tsx';
+import OrderConfirmationToast from './components/OrderConfirmationToast.tsx';
+import { Product } from './types.ts';
 
 function App() {
   const [route, setRoute] = useState(window.location.hash.replace('#', '') || '/');

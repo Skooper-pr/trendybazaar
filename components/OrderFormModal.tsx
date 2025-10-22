@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useCallback } from 'react';
-import { Product, OrderDetails } from '../types';
+import { Product, OrderDetails } from '../types.ts';
 
 interface OrderFormModalProps {
   product: Product;

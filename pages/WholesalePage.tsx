@@ -1,6 +1,7 @@
 
+
 import React from 'react';
-import WholesaleForm from '../components/WholesaleForm';
+import WholesaleForm from '../components/WholesaleForm.tsx';
 
 const WholesalePage: React.FC = () => {
   return (
